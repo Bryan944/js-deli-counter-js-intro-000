@@ -27,7 +27,7 @@ function currentLine(katzDeliLine){
 
     if(katzDeliLine.length > 0){
       for(var n = 0; n < katzDeliLine.length; n++)
-    var outPut = katzDeliLine.slice(0,-2);
+    //var outPut = katzDeliLine.slice(0,-2);
           return 'The line is currently:' + ' ' + '1. ' +katzDeliLine[n] + ' ' + '2. ' + katzDeliLine[n] + ' ' + '3. ' + katzDeliLine[n];
     }else{
           return 'The line is currently empty.';
