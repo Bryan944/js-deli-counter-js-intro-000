@@ -31,9 +31,9 @@ var i = 'The line is currently: ' ;
       for(var n = 0; n < katzDeliLine.length; n++){
             if(n === katzDeliLine.length -1){
 
-            i += `${n+1}. ${katzDeliLine[n]} `;
+            i += `${n+1}. ${katzDeliLine[n]}`;
       }else{
-        i += `${n+1}. ${katzDeliLine[n]}, `;
+        i += `${n+1}. ${katzDeliLine[n]},`;
       }
     }
       return i;
