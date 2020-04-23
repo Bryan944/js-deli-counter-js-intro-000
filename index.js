@@ -32,7 +32,7 @@ var i = 'The line is currently: ' ;
         debugger
             i + `${n++}   ${katzDeliLine[0]}`
       }
-      return 
+      return
     }else{
           return 'The line is currently empty.';
     }
