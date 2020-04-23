@@ -24,11 +24,13 @@ function nowServing(katzDeliLine){
 
 
 function currentLine(katzDeliLine){
-var i = 0;
+  
+var i = 'The line is currently: ' ;
+
     if(katzDeliLine.length > 0){
       for(var n = 0; n < katzDeliLine.length; n++)
     //var outPut = katzDeliLine.slice(0,-2);
-          return  'The line is currently:' + n;
+      i + `${n++}   ${katzDeliLine[0]}`
     }else{
           return 'The line is currently empty.';
     }
