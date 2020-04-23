@@ -33,7 +33,7 @@ var i = 'The line is currently: ' ;
 
             i += `${n+1}. ${katzDeliLine[n]}`;
       }else{
-        i += `${n+1}. ${katzDeliLine[n]},`;
+        i += `${n+1}. ${katzDeliLine[n]}, `;
       }
     }
       return i;
