@@ -24,7 +24,7 @@ function nowServing(katzDeliLine){
 
 
 function currentLine(katzDeliLine){
-  
+
 var i = 'The line is currently: ' ;
 
     if(katzDeliLine.length > 0){
