@@ -30,9 +30,9 @@ var i = 'The line is currently: ' ;
     if(katzDeliLine.length > 0){
       for(var n = 0; n < katzDeliLine.length; n++){
 
-            i + `${n++}   ${katzDeliLine[0]}`
+            i.concat(`${n++}   ${katzDeliLine[0]}`);
       }
-      return
+      return i;
     }else{
           return 'The line is currently empty.';
     }
