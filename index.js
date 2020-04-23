@@ -29,9 +29,13 @@ var i = 'The line is currently: ' ;
 
     if(katzDeliLine.length > 0){
       for(var n = 0; n < katzDeliLine.length; n++){
-
+            if(n === katzDeliLine.length -1){
+                
             i += `${n+1}. ${katzDeliLine[n]} `;
+      }else{
+        i += `${n+1}. ${katzDeliLine[n]}, `;
       }
+    }
       return i;
     }else{
           return 'The line is currently empty.';
