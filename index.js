@@ -37,4 +37,3 @@ var i = 'The line is currently: ' ;
           return 'The line is currently empty.';
     }
   }
-
