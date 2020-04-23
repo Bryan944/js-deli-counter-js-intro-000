@@ -30,7 +30,7 @@ var i = 'The line is currently: ' ;
     if(katzDeliLine.length > 0){
       for(var n = 0; n < katzDeliLine.length; n++){
 
-            i.concat(`${n++}   ${katzDeliLine[n]}`);
+            i += (`${n++}   ${katzDeliLine[n]}`);
       }
       return i;
     }else{
